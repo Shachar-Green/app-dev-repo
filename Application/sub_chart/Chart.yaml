@@ -9,7 +9,7 @@ dependencies:
     alias: deploy1
   - name: blue-green
     repository: "oci://ghcr.io/shachar-green/helm"
-    version: 1.0.0
+    version: "1.0.0"
     alias: deploy2
 version: 1.0.0
 appVersion: "1.0.0"
