@@ -4,7 +4,7 @@ description: A Helm chart for Kubernetes
 type: application
 dependencies:
   - name: blue-green-1.0.0.tgz
-    repository: oci://ghcr.io/shachar-green/helm/
+    repository: oci://ghcr.io/shachar-green/helm
     version: "1.0.0"
     alias: deploy1
 version: 1.0.0
