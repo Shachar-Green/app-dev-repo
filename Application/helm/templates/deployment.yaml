@@ -18,10 +18,10 @@ spec:
             name: '{{ .Chart.Name }}-html'
             defaultMode: 420
       containers:
-            env:
+        - resources: {}
+          env:
               - name: PORT
                 value: {{ .Values.containers.containerPort | quote }}
-        - resources: {}
           livenessProbe:
             httpGet:
               path: /health/liveliness
