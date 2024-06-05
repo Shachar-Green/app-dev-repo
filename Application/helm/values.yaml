@@ -2,8 +2,8 @@ ReplicaNumber: 3
 
 containers:
   containerPort: 8080
-  image: 'quay.io/shachar_green/helloworldapp:v2'
-  tag: 'base'
+  image: 'quay.io/shachar_green/helloworldapp:'
+  tag: 'v2'
 
 service:
   servicePort: 8080
