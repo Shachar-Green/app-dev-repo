@@ -9,7 +9,7 @@ spec:
   template:
     metadata:
       name: test-url
-    spec:
+      spec:
       restartPolicy: Never
       containers:
       - name: test-url
