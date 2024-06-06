@@ -12,7 +12,7 @@ deploy:
       tag: 'chart_v1'
 
   service:
-      servicePort: 8080
+    servicePort: 8080
 
 deploy1: 
   ReplicaNumber: 1
