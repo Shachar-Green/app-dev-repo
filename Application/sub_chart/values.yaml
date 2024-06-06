@@ -1,4 +1,4 @@
-test: fail
+test: Healthy
 
 github:
   user: Shachar-Green
