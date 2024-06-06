@@ -1,8 +1,9 @@
 ReplicaNumber: 1
 
 argocd:
-  syncwave:
-     deployment: 5
+  syncwave: 
+    deployment: 5
+    configmap: 1
 
 containers:
   containerPort: 8080
