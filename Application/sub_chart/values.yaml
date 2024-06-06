@@ -1,3 +1,5 @@
+test: Healthy
+
 deploy: 
   service:
     servicePort: 8080
