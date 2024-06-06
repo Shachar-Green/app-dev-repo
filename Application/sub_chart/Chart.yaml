@@ -5,7 +5,7 @@ type: application
 dependencies:
   - name: app-dev-repo
     repository: oci://ghcr.io/shachar-green/helm
-    version: "1.0.3"
+    version: "1.0.4"
     alias: deploy1
   - name: app-dev-repo
     repository: "oci://ghcr.io/shachar-green/helm"
