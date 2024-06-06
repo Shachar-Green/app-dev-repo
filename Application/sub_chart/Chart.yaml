@@ -3,11 +3,11 @@ name: workshop-test
 description: A Helm chart for Kubernetes
 type: application
 dependencies:
-  - name: app-dev-app
+  - name: app-dev-repo
     repository: oci://ghcr.io/shachar-green/helm
     version: "1.0.1"
     alias: deploy1
-  - name: app-dev-app
+  - name: app-dev-repo
     repository: "oci://ghcr.io/shachar-green/helm"
     version: "1.0.1"
     alias: deploy2
