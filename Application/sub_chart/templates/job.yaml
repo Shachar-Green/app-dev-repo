@@ -1,15 +1,15 @@
- apiVersion: batch/v1
- kind: Job
- metadata:
-   annotations:
-     argocd.argoproj.io/hook: PostSync
-     argocd.argoproj.io/hook-delete-policy: BeforeHookCreation
-   name: test-url
- spec:
-   template:
-     metadata:
-       name: test-url
-     spec:
+apiVersion: batch/v1
+kind: Job
+metadata:
+  annotations:
+    argocd.argoproj.io/hook: PostSync
+    argocd.argoproj.io/hook-delete-policy: BeforeHookCreation
+  name: test-url
+spec:
+  template:
+    metadata:
+      name: test-url
+    spec:
       restartPolicy: Never
       containers:
       - name: test-url
@@ -22,4 +22,4 @@
             value: "deploy-service"
           - name: PORT
             value: "{{ .Values.deploy.service.servicePort }}"
-      backoffLimit: 1
+    backoffLimit: 1

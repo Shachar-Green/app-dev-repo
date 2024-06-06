@@ -1,16 +1,4 @@
 deploy: 
-  ReplicaNumber: 1
-
-  argocd:
-    syncwave: 
-      deployment: 5
-      configmap: 1
-
-  containers:
-      containerPort: 8080
-      image: 'quay.io/shachar_green/helloworldapp'
-      tag: 'chart_v1'
-
   service:
     servicePort: 8080
 
