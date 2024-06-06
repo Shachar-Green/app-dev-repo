@@ -3,7 +3,7 @@ test: fail
 github:
   user: Shachar-Green
   token: empty-pass
-  url: <https://api.github.com/repos/Shachar-Green/app-dev-repo/issues>
+  url: https://api.github.com/repos/Shachar-Green/app-dev-repo/issues
 
 deploy: 
   service:
