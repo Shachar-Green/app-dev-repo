@@ -1,4 +1,4 @@
-test: Null
+test: Healthy
 
 deploy: 
   service:
