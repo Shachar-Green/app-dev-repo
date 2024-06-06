@@ -7,9 +7,9 @@
    name: test-url
  spec:
    template:
-     metadata:
-       name: test-url
-     spec:
+    metadata:
+      name: test-url
+    spec:
       restartPolicy: Never
       containers:
       - name: test-url
@@ -22,4 +22,4 @@
             value: "deploy-service"
           - name: PORT
             value: "{{ .Values.deploy.service.servicePort }}"
-   backoffLimit: 1
+    backoffLimit: 1
