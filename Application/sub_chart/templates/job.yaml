@@ -24,4 +24,4 @@ spec:
             value: "deploy1-service"
           - name: PORT
             value: "{{ .Values.deploy.service.servicePort }}"
-    backoffLimit: 1
+  backoffLimit: 1
