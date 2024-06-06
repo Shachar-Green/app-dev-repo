@@ -1,4 +1,4 @@
-deploy1: 
+deploy: 
   ReplicaNumber: 1
 
   argocd:
@@ -13,7 +13,7 @@ deploy1:
 
   service:
       servicePort: 8080
-      
+
 deploy1: 
   ReplicaNumber: 1
 
