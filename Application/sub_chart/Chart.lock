@@ -1,0 +1,9 @@
+dependencies:
+- name: app-dev-repo
+  repository: oci://ghcr.io/shachar-green/helm
+  version: 1.0.4
+- name: app-dev-repo
+  repository: oci://ghcr.io/shachar-green/helm
+  version: 1.0.3
+digest: sha256:a16e1442e30cac8ff160bcbf3692a73510d7ef8219ec252e9e48f3436661026e
+generated: "2024-06-06T11:32:50.841463391Z"
