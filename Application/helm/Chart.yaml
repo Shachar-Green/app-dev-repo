@@ -4,3 +4,21 @@ description: A Helm chart for Kubernetes
 type: application
 version: 1.0.0
 appVersion: "1.0.0"
+probes:
+  readiness:
+    path: /health/liveliness
+    initialDelaySeconds: 1
+    timeoutSeconds: 1
+    periodSeconds: 10
+    successThreshold: 1
+    failureThreshold: 3
+  liveness:
+    path: /health/liveliness
+    initialDelaySeconds: 1
+    timeoutSeconds: 1 
+    periodSeconds: 10 
+    successThreshold: 1  
+    failureThreshold: 3
+volume:
+  mount:
+    path: /tmp/html
